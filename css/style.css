@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Raleway&display=swap') ;
+
+@import url("components/avatar.css") ;
+@import url("components/banner.css") ;
+@import url("components/button.css") ;
+@import url("components/card.css") ;
+@import url("components/container.css") ;
+
+body{
+    margin: 0px ;
+    background-color: rgb(255, 166, 82) ;
+
+    font-family: 'Noto Serif', serif ;
+    font-size: 20px ;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif ;
+}
+
+h1 {
+    font-size: 40px ;
+}
+
+h2 {
+    font-size: 30px ;
+    font-weight: lighter ;
+}
+
+a {
+    text-decoration: none ;
+}
+
+p {
+    text-decoration: none ;
+}

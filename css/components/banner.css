@@ -1,0 +1,62 @@
+.banner {
+    background-image: url("../../images/banner.jpg") ;
+    background-size: cover ;
+    background-position: center ; 
+    text-align: center ;
+    height: 400px ;
+    padding: 50px ;
+    margin-top: 0px ;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5) ;
+
+    border-bottom-style: solid ;
+    border-bottom-width: 2px ;
+    border-bottom-color: rgb(0,0,0) ;
+
+    border-top-style: solid ;
+    border-top-width: 2px ;
+    border-top-color: rgba(0,0,0,0) ;
+}
+
+.banner .container {
+    color: rgb(61, 199, 26) ;
+    background: radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 80%) ;
+    box-shadow: none ;
+    padding-bottom: 50px ;
+    border-radius: 100px ;
+    line-height: 40px ;
+}
+
+.banner h1 {
+    color: rgb(123, 255, 0) ;
+    font-size: 60px ;
+    font-weight: bolder ;
+}
+
+@media (max-width: 960px) {
+    .banner .container {
+      width: 680px ;
+      padding-bottom: 50px ;
+    }
+}
+
+@media (max-width: 720px) {
+    .banner {
+        padding: 0px ;
+        margin-top: 0px ;
+    }
+    .banner .container {
+      width: 440px ;
+      padding-bottom: 50px ;
+    }
+}
+
+@media (max-width: 540px) {
+    .banner {
+        padding: 0px ;
+        margin-top: 0px ;
+    }
+    .banner .container {
+      width: 400px ;
+      padding-bottom: 50px ;
+    }
+}
